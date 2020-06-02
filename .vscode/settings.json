@@ -1,0 +1,18 @@
+{
+  "python.pythonPath": "${workspaceFolder}/../../virtualenvironment/v1/bin/python3",
+  "editor.formatOnSave": true,
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.pylintPath": "pylint",
+  "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint_django"
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.venvPath": "${workspaceFolder}/../../virtualenvironment/v1/bin/python3",
+  "python.linting.pycodestyleArgs": [
+    "--ignore=E501"
+  ],
+  "files.exclude": {
+    "**/*.pyc": true
+  }
+}
